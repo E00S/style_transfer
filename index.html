@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script src="p5.js"></script>
+	<script src="sketch.js"></script>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div class="drawingTool">
+		<div class="colorBars">
+			<div class="slidecontainer">
+				<input type="range" min="0" max="255" value="0" class="slider" id="r">
+			</div>
+			<div class="slidecontainer">
+				<input type="range" min="0" max="255" value="0" class="slider" id="g">
+			</div>
+			<div class="slidecontainer">
+				<input type="range" min="0" max="255" value="0" class="slider" id="b">
+			</div>
+			<div id="colorBox"></div>
+		</div>
+		<div class = "stroke">
+			<div class="slidecontainer">
+					<input type="range" min="1" max="20" value="1" class="slider" id="lineSize">
+			</div>
+			<div id="c2"></div>
+		</div>
+		<div class = "opa">
+			<div class="slidecontainer">
+					<input type="range" min="0" max="255" value="0" class="slider" id="alp">
+			</div>
+			<div id="c4"></div>
+		</div>
+
+		<div class="outer">
+			<div id="c3"></div>	
+			<div id="p5"></div>
+			<a href="javascript:save()"><img src="save_icon.png"></img></a>
+		</div>
+
+
+
+	</div>
+
+
+
+</body>
+<script src="not_p5.js"></script>
+</html>

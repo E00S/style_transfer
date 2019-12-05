@@ -1,0 +1,133 @@
+
+#p5 {
+  display: table;
+  margin-right: 90px;
+  margin-top: 50px;
+}
+
+.outer {
+  display: table;
+  margin: auto;
+}
+
+.colorBars {
+  width: 600px;
+  height: 91px;
+  /*background: grey;*/
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.stroke {
+  width: 600px;
+  height: 29px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.opa {
+  width: 600px;
+  height: 29px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slidecontainer {
+  width: 513px; /* Width of the outside container */
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+#r {
+  background: black;
+}
+
+#g {
+  background: black;
+}
+
+#b {
+  background: black;
+}
+
+#lineSize {
+  background: black;
+}
+
+#alp {
+  background: black;
+}
+
+img {
+  float: right;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  top: -600px;
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: orange; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+#c2 {
+  position: relative;
+  left: 513px;
+  bottom: 29px;
+  padding-left: 5px;
+  display: block;
+  background-clip: content-box;
+}
+
+#c4 {
+  position: relative;
+  left: 513px;
+  bottom: 29px;
+  padding-left: 5px;
+  display: block;
+  background-clip: content-box;
+}
+
+#c3 {
+  width: 100px;
+  height: 600px;
+  margin-top: 50px; 
+  float: left;
+  padding-left: 5px;
+}
+
+
+#colorBox {
+  width: 87px;
+  height: 87px;
+  position: relative;
+  left: 513px;
+  bottom: 91px;
+  padding-left: 5px;
+  display: block;
+  background: black;
+  background-clip: content-box;
+}
